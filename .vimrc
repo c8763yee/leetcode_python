@@ -11,8 +11,8 @@ inoremap jj <Esc>
 
 " normal mode
 nnoremap <F4> :set invrnu!<CR>
-
-
+nnoremap crf :let @" = expand("%")<CR>
+nnoremap cff :let @" = expand("%:p")<CR>
 " indent
 set tabstop=4
 set smartindent
