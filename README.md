@@ -12,6 +12,8 @@ write this to review my python and algorithm(learning `Vim` BTW)
     - 69(nice): Sqrt(x)
 - Normal
     - 2: Add Two Numbers
-    - 7: reverseInteger
+    - 7: reverse Integer
+    - 17: Letter Combination of a Phone Number
     - 46: Permutations
 - Hard
+    - 23: Merge K Sorted Lists
