@@ -1,3 +1,3 @@
 #!/bin/bash
 git push
-cp .vimrc ~/.vimrc
+cp .vimrc  ~/.vimrc
