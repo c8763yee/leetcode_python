@@ -14,6 +14,7 @@ id   | Difficulty | Title
 21  | Easy       | [Merge Two Sorted Lists](easy/21.MergeTwoSortedLists.py)
 22   | Medium    | [Generate Parentheses](medium/22.GenerateParentheses.py)
 23  | Hard       | [Merge K Sorted Lists](hard/23.MergeKSortedList.py)
+29   | Medium    | [Divide Two Integer](medium/29.DivideTwoIntegers.py)
 46  | Medium     | [Permutations](medium/46.Permutations.py)
 66  | Easy       | [Plus One](easy/66.PlusOne.py)
 67  | Easy       | [Add Binary](easy/67.AddBinary.py)
