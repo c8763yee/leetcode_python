@@ -38,3 +38,4 @@ set rnu
 set ruler
 set colorcolumn=80
 highlight ColorColumn ctermbg=5
+set t_Co=256

@@ -24,3 +24,5 @@ id   | Difficulty | Title
 1822 | Easy      | [Sign of the Product of an Array](./easy/1822.SignOfTheProductOfAnArray.py)
 2140 | Medium    | [Solving Questions With Brainpower](./medium/2140.SolvingQuestionsWithBrainPower.py)
 2215 | Easy      | [Find the Difference of Two Arrays](./easy/2215.FindTheDifferenceOfTwoArrays.py)
+1721 | Medium    | [Swapping Nodes in a Linked List](medium/1721.SwappingNodesInALinkedList.py)
+443  | Medium    | [String Compression](medium/443.StringCompression.py) 
