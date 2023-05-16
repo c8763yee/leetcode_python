@@ -8,11 +8,13 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap {<CR> {<CR>}<Esc>ko
 inoremap jj <Esc>
-
+" Visual mode
+vnoremap jj <Esc> 
 " normal mode
 nnoremap <F4> :set invrnu!<CR>
 nnoremap crf :let @" = expand("%")<CR>
 nnoremap cff :let @" = expand("%:p")<CR>
+nnoremap tt :7<CR>VG$:!sort -nk2<CR>
 " indent
 set tabstop=4
 set smartindent
