@@ -6,7 +6,7 @@
 | 2    | Medium     | [Add Two Numbers](medium/2.AddTwoNumber.py)                                                                   |
 | 7    | Medium     | [Reverse Integer](medium/7.ReverseInteger.py)                                                                 |
 | 9    | Easy       | [Palindrome Number](easy/9.PalindromeNumber.py)                                                               |
-| 12   | Easy       | [Integer To Roman](medium/12.IntegerToRoman.py)                                                               |
+| 12   | Medium     | [Integer To Roman](medium/12.IntegerToRoman.py)                                                               |
 | 13   | Easy       | [Roman to Integer](easy/13.RomanToInteger.py)                                                                 |
 | 14   | Easy       | [Longest Common Prefix](easy/14.LongestCommonPrefix.py)                                                       |
 | 16   | Medium     | [3Sum Closest](medium/16.3SumClosest.py)                                                                     |
@@ -41,5 +41,6 @@
 | 1137 | Easy       | [N-th Tribonacci Number](easy/1137.NthTribonacciNumber.py)                                                    |
 | 1491 | Easy       | [Average Salary Excluding the Minimum and Maximum Salary](easy/1491.AverageSalaryExcludingtheMinimumandMaximumSalary.py) |
 | 1721 | Medium     | [Swapping Nodes in a Linked List](medium/1721.SwappingNodesInALinkedList.py)                                  |
+| 1822 | Easy       | [Sign of the Product of an Array](easy/1822.SignOfTheProductOfAnArray.py)                                      |
 | 2140 | Medium     | [Solving Questions With Brainpower](medium/2140.SolvingQuestionsWithBrainPower.py)                            |
 | 2215 | Easy       | [Find the Difference of Two Arrays](easy/2215.FindTheDifferenceOfTwoArrays.py)                                |
