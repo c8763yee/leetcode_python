@@ -1,5 +1,7 @@
 # leetcode_python
 ## status
+![c8763yee's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=c8763yee&theme=dark)
+
 | id   | Difficulty | Title                                                                                                         |
 |------|------------|---------------------------------------------------------------------------------------------------------------|
 | 1    | Easy       | [Two Sum](easy/1.TwoSum.py)                                                                                   |
