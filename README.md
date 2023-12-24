@@ -45,12 +45,13 @@
 | 235  | Medium     | [Lowest Common Ancestor of a Binary Search Tree](medium/235.LowestCommonAncestorOfABinarySearchTree.py)       |
 | 242  | Easy       | [Valid Anagram](easy/242.ValidAnagram.py)                                                                     |
 | 278  | Easy       | [First Bad Version](easy/278.FirstBadVersion.py)                                                              |
-| 338  | Medium     | [Counting Bits](medium/338.CountingBits.py)                                                                   |
+| 338  | Easy       | [Counting Bits](easy/338.CountingBits.py)                                                                     |
 | 383  | Easy       | [Ransom Note](easy/383.RansomNote.py)                                                                         |
 | 409  | Easy       | [Longest Palindrome](easy/409.LongestPalindrome.py)                                                           |
 | 443  | Medium     | [String Compression](medium/443.StringCompression.py)                                                         |
 | 509  | Easy       | [Fibonacci Number](easy/509.FibonacciNumber.py)                                                               |
 | 543  | Easy       | [Diameter of Binary Tree](easy/543.DiameterOfBinaryTree.py)                                                   |
+| 564  | Hard       | [Find the Closest Palindrome](hard/564.FindTheClosestPalindrome.py)                                           |
 | 704  | Easy       | [Binary Search](easy/704.BinarySearch.py)                                                                     |
 | 733  | Easy       | [Flood Fill](easy/733.FloodFill.py)                                                                           |
 | 746  | Easy       | [Min Cost Climbing Stairs](easy/746.MinCostClimbingStairs.py)                                                 |
