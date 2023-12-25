@@ -11,7 +11,7 @@
 | 12   | Medium     | [Integer To Roman](medium/12.IntegerToRoman.py)                                                               |
 | 13   | Easy       | [Roman to Integer](easy/13.RomanToInteger.py)                                                                 |
 | 14   | Easy       | [Longest Common Prefix](easy/14.LongestCommonPrefix.py)                                                       |
-| 16   | Medium     | [3Sum Closest](medium/16.3SumClosest.py)                                                                     |
+| 16   | Medium     | [3Sum Closest](medium/16.3SumClosest.py)                                                                      |
 | 17   | Medium     | [Letter Combination of a Phone Number](medium/17.LetterCombinationsOfaPhoneNumber.py)                         |
 | 20   | Easy       | [Valid Parentheses](easy/20.ValidParentheses.py)                                                              |
 | 21   | Easy       | [Merge Two Sorted Lists](easy/21.MergeTwoSortedLists.py)                                                      |
@@ -21,19 +21,23 @@
 | 27   | Easy       | [Remove Element](easy/27.RemoveElement.py)                                                                    |
 | 29   | Medium     | [Divide Two Integer](medium/29.DivideTwoIntegers.py)                                                          |
 | 46   | Medium     | [Permutations](medium/46.Permutations.py)                                                                     |
-| 50   | Medium     | [Pow(x, n)](medium/50.PowXN.py)                                                                                 |
+| 50   | Medium     | [Pow(x, n)](medium/50.PowXN.py)                                                                               |
+| 53   | Medium     | [Maximum Subarray](medium/53.MaximumSubarray.py)                                                              |
 | 66   | Easy       | [Plus One](easy/66.PlusOne.py)                                                                                |
 | 67   | Easy       | [Add Binary](easy/67.AddBinary.py)                                                                            |
 | 69   | Easy       | [Sqrt(x)](easy/69.Sqrt-x.py)                                                                                  |
 | 70   | Easy       | [Climbing Stairs](easy/70.ClimbingStairs.py)                                                                  |
 | 72   | Hard       | [Edit Distance](hard/72.editDistance.py)                                                                      |
 | 100  | Easy       | [Same Tree](easy/100.SameTree.py)                                                                             |
+| 101  | Easy       | [Symmetric Tree](easy/101.SymmetricTree.py)                                                                   |
 | 104  | Easy       | [Maximum Depth of Binary Tree](easy/104.MaximumDepthOfBinaryTree.py)                                          |
+| 108  | Easy       | [Convert Sorted Array to Binary Search Tree](easy/108.ConvertSortedArrayToBinarySearchTree.py)                |
 | 110  | Easy       | [Balanced Binary Tree](easy/110.BalancedBinaryTree.py)                                                        |
 | 125  | Easy       | [Valid Palindrome](easy/125.ValidPalindrome.py)                                                               |
 | 136  | Easy       | [Single Number](easy/136.SingleNumber.py)                                                                     |
 | 141  | Easy       | [Linked List Cycle](easy/141.LinkedListCycle.py)                                                              |
 | 169  | Easy       | [Majority Element](easy/169.MajorityElement.py)                                                               |
+| 190  | Easy       | [Reverse Bits](easy/190.ReverseBits.py)                                                                       |
 | 191  | Easy       | [Number of 1 Bits](easy/191.NumberOf1Bits.py)                                                                 |
 | 198  | Medium     | [House Robber](medium/198.HouseRobber.py)                                                                     |
 | 206  | Easy       | [Reverse Linked List](easy/206.ReverseLinkedList.py)                                                          |
@@ -44,7 +48,9 @@
 | 234  | Easy       | [Palindrome Linked List](easy/234.PalindromeLinkedList.py)                                                    |
 | 235  | Medium     | [Lowest Common Ancestor of a Binary Search Tree](medium/235.LowestCommonAncestorOfABinarySearchTree.py)       |
 | 242  | Easy       | [Valid Anagram](easy/242.ValidAnagram.py)                                                                     |
+| 268  | Easy       | [Missing Number](easy/268.MissingNumber.py)                                                                   |
 | 278  | Easy       | [First Bad Version](easy/278.FirstBadVersion.py)                                                              |
+| 283  | Easy       | [Move Zeroes](easy/283.MoveZeroes.py)                                                                         |
 | 338  | Easy       | [Counting Bits](easy/338.CountingBits.py)                                                                     |
 | 383  | Easy       | [Ransom Note](easy/383.RansomNote.py)                                                                         |
 | 409  | Easy       | [Longest Palindrome](easy/409.LongestPalindrome.py)                                                           |
@@ -52,11 +58,13 @@
 | 509  | Easy       | [Fibonacci Number](easy/509.FibonacciNumber.py)                                                               |
 | 543  | Easy       | [Diameter of Binary Tree](easy/543.DiameterOfBinaryTree.py)                                                   |
 | 564  | Hard       | [Find the Closest Palindrome](hard/564.FindTheClosestPalindrome.py)                                           |
+| 572  | Easy       | [Subtree of Another Tree](easy/572.SubtreeOfAnotherTree.py)                                                   |
 | 704  | Easy       | [Binary Search](easy/704.BinarySearch.py)                                                                     |
 | 733  | Easy       | [Flood Fill](easy/733.FloodFill.py)                                                                           |
 | 746  | Easy       | [Min Cost Climbing Stairs](easy/746.MinCostClimbingStairs.py)                                                 |
 | 844  | Easy       | [Backspace String Compare](easy/844.BackspaceStringCompare.py)                                                |
 | 876  | Easy       | [Middle of the Linked List](easy/876.MiddleOfTheLinkedList.py)                                                |
+| 977  | Easy       | [Squares of a Sorted Array](easy/977.SquaresOfASortedArray.py)                                                |
 | 1137 | Easy       | [N-th Tribonacci Number](easy/1137.NthTribonacciNumber.py)                                                    |
 | 1491 | Easy       | [Average Salary Excluding the Minimum and Maximum Salary](easy/1491.AverageSalaryExcludingtheMinimumandMaximumSalary.py) |
 | 1721 | Medium     | [Swapping Nodes in a Linked List](medium/1721.SwappingNodesInALinkedList.py)                                  |
