@@ -2,11 +2,6 @@ set nocompatible
 
 " remap key
 " insert mode
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap {<CR> {<CR>}<Esc>ko
 inoremap jj <Esc>
 " Visual mode
 vnoremap jj <Esc> 
