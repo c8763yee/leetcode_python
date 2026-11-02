@@ -1,7 +1,7 @@
 class Solution:
     def mostPoints(self, questions):
         size = len(questions)
-        solved = [0] * size 
+        solved = [0] * size
         def solve(idx=0):
             if idx >= size:
                 return 0

@@ -2,7 +2,6 @@ class Solution:
     def swapPairs(self, head):
         prev = None
         pivot = head
-        Next = pivot.next
         while pivot and (Next := pivot.next):
             curr = pivot
             curr.next = Next.next

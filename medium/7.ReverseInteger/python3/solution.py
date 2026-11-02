@@ -5,7 +5,7 @@ class Solution:
             return (
                 method == 0 and (
                 x > 0 and a > 2147483647-x
-                or x < 0 and a < -2147483648+x)
+                or x < 0 and a < -2147483648-x)
             ) or (
                 method == 1 and(
                 a > 2147483647//x

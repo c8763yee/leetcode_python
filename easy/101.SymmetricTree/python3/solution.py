@@ -7,7 +7,7 @@
 #
 # algorithms
 # Easy (55.72%)
-# Likes:    14703
+# Likes:    14710
 # Dislikes: 355
 # Total Accepted:    1.8M
 # Total Submissions: 3.3M
@@ -43,7 +43,6 @@
 # Follow up: Could you solve it both recursively and iteratively?
 #
 
-
 # @lc code=start
 # Definition for a binary tree node.
 # class TreeNode:
@@ -56,17 +55,15 @@ class Solution:
         if root is None:
             return True
 
-        def symmetric(left, right):
-            if not (left or right):
-                return True
-            if not (left and right) or left.val != right.val:
+        def symmertic(left, right):
+            if left is None or right is None:
+                return not (left or right)
+
+            if left.val != right.val:
                 return False
-            # compare outer and inner
-            return symmetric(left.left, right.right) and symmetric(
-                left.right, right.left
-            )
 
-        return symmetric(root.left, root.right)
+            return symmertic(left.left, right.right) and symmertic(left.right, right.left)
 
+        return symmertic(root.left, root.right)
 
 # @lc code=end

@@ -16,4 +16,3 @@ class Solution:
             curr.next = node
             curr = curr.next
         return start
-

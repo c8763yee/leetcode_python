@@ -6,4 +6,3 @@ class Solution:
                 nums[idx] = e
                 idx += 1
         return idx
-

@@ -16,7 +16,6 @@ class Solution:
                 size += 1
                 node = node.next
             return size
-        lists.sort(key=lenLList, reverse=True)
         node = lists.pop()
         while lists:
             node = merge(node, lists.pop())

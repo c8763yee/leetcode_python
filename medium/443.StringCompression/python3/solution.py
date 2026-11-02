@@ -1,25 +1,36 @@
 class Solution:
     def compress(self, chars: list[str]) -> int:
-        char_count = length = ptr1 = 0
-        previous = chars[0]
-        chars.append(' ')
-        for ptr2, c in enumerate(chars):
-            if c == previous:
-                char_count += 1
+        if not chars or len(chars) == 1:
+            return len(chars)
+
+        write_pointer = count = 0
+        n = len(chars)
+
+        alpha_table = {}
+        count_table = {}
+        for read_pointer, char in enumerate(chars):
+            count += 1
+
+            # Check for character change or end of list
+            if read_pointer < n - 1 and char == chars[read_pointer + 1]:
                 continue
 
-            chars[ptr1] = previous
-            char_size = 0
-            previous = c
-            length += 1
-            if char_count > 1:
-                char_size += int(math.log10(char_count)) + 1
-                length += char_size
-                for i in range(char_size):
-                    chars[ptr1 + i + 1] = str(char_count)[i]
+            alpha_table[char] = alpha_table.get(char, 0) + 1 
+            count_table[(char, alpha_table[char])] = count
+            
+            count = 0
 
-            char_count = 1
-            ptr1 += char_size + 1
-            chars[ptr1] = c
+        for (char, _), time in count_table.items():
+            # write first char
+            chars[write_pointer] = char
+            write_pointer += 1
 
-        return length
+            # write remain digit
+            if time == 1:
+                continue
+
+            for c in str(time):
+                chars[write_pointer] = c
+                write_pointer += 1  
+
+        return write_pointer

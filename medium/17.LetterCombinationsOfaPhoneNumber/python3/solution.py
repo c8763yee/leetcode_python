@@ -1,27 +1,19 @@
-class Solution:
-    def letterCombinations(self, digits):
-        table = {
-                '2': 'abc',
-                '3': 'def',
-                '4': 'ghi',
-                '5': 'jkl',
-                '6': 'mno',
-                '7': 'pqrs',
-                '8': 'tuv',
-                '9': 'wxyz'
-            }
-        letters = []
-        comb = []
-        def makeComb(idx=0):
-            if idx == len(digits):
-                comb.append(''.join(letters))
-                return
-            for i in table[digits[idx]]:
-                letters.append(i)
-                makeComb(idx+1)
-                letters.pop()
+mapping = [None, None, 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz']
 
-        if not digits:
-            return []
-        makeComb()
-        return comb
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        result = []
+        def dfs(idx, size, words):
+            if idx >= size:
+                if idx == size and words!="":
+                    result.append(words)
+                return 
+
+            for c in mapping[int(digits[idx])]:
+                dfs(idx+1, size, words+c)
+
+        dfs(0, len(digits), "")
+        return result
+
+
+            

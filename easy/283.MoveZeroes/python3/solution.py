@@ -1,11 +1,3 @@
-#
-# @lc app=leetcode id=283 lang=python3
-#
-# [283] Move Zeroes
-#
-
-
-# @lc code=start
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -17,5 +9,3 @@ class Solution:
                 nums[zeros], nums[ones] = nums[ones], nums[zeros]
                 ones += 1
 
-
-# @lc code=end

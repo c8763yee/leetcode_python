@@ -15,12 +15,12 @@ class Solution:
                 return t
 
             if t > dist[i][j]:
-                continue
+                continue  
 
             for dx, dy in directions:
                 ni, nj = i + dx, j + dy
                 if 0 <= ni < n and 0 <= nj < m:
-                    arrive = max(t, moveTime[ni][nj]) + 1
+                    arrive = max(t, moveTime[ni][nj])+1
                     if arrive < dist[ni][nj]:
                         dist[ni][nj] = arrive
                         heapq.heappush(heap, (arrive, ni, nj))
