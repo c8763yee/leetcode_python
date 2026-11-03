@@ -1,0 +1,88 @@
+name: Sync LeetCode
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+      timezone: Asia/Taipei
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: sync-leetcode
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Restore submission details cache
+        uses: actions/cache@v6
+        with:
+          path: .leetcode-import/c8763yee/*.json
+          key: ${{ runner.os }}-leetcode-c8763yee-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            ${{ runner.os }}-leetcode-c8763yee-v1-
+
+      - name: Sync latest Accepted solutions
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        # Always fetch fresh history; cache only avoids downloading unchanged code.
+        run: python3 scripts/import_leetcode.py
+
+      - name: Commit and push changes
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- easy medium hard README.md submissions.json
+          if git diff --cached --quiet; then
+            echo 'No new Accepted solutions.'
+            exit 0
+          fi
+          status="$(python3 scripts/push_status.py)"
+          git commit -m "status: $status"
+          git push origin "HEAD:$DEFAULT_BRANCH"
+
+  notify-failure:
+    needs: sync
+    if: ${{ always() && needs.sync.result == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: Notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          if [[ -z "$DISCORD_WEBHOOK_URL" ]]; then
+            echo '::error::Missing Actions secret: DISCORD_WEBHOOK_URL'
+            exit 1
+          fi
+          jq -n \
+            --arg repo "$REPOSITORY" \
+            --arg url "$RUN_URL" \
+            '{content: ("❌ LeetCode 同步失敗：" + $repo + "\n" + $url), allowed_mentions: {parse: []}}' \
+            > "$RUNNER_TEMP/discord-payload.json"
+          curl --fail --silent --show-error \
+            --retry 3 --retry-all-errors --connect-timeout 10 --max-time 30 \
+            --header 'Content-Type: application/json' \
+            --data-binary @"$RUNNER_TEMP/discord-payload.json" \
+            --output /dev/null "$DISCORD_WEBHOOK_URL"

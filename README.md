@@ -6,6 +6,8 @@
 
 重新同步：`python3 scripts/import_leetcode.py`（從 `.env.leetcode` 讀取登入 Cookie）；下載中斷時可加 `--resume`，沿用上次的歷史清單與快取。本機舊解答備份於 `.leetcode-import/c8763yee/previous-local/`。
 
+每日自動同步與 Discord 失敗通知設定：[自動化說明](docs/automation.md)。
+
 | id | Difficulty | Title | Languages |
 |---|---|---|---|
 | 1 | Easy | [Two Sum](easy/1.TwoSum) | [c](easy/1.TwoSum/c/solution.c), [cpp](easy/1.TwoSum/cpp/solution.cpp), [golang](easy/1.TwoSum/golang/solution.go), [python](easy/1.TwoSum/python/solution.py), [python3](easy/1.TwoSum/python3/solution.py), [rust](easy/1.TwoSum/rust/solution.rs) |

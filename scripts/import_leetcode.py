@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import os
 import re
 import time
 import urllib.error
@@ -20,10 +21,16 @@ def main():
     parser.add_argument('--resume', action='store_true', help='Reuse the previously downloaded history snapshot')
     args = parser.parse_args()
     values = {}
-    for line in args.credentials.read_text().splitlines():
+    credential_text = args.credentials.read_text() if args.credentials.exists() else ''
+    for line in credential_text.splitlines():
         if '=' in line and not line.lstrip().startswith('#'):
             key, value = line.split('=', 1)
             values[key.strip()] = value.strip().strip('\"\'')
+    for key in ('LEETCODE_SESSION', 'LEETCODE_CSRF_TOKEN'):
+        if os.environ.get(key):
+            values[key] = os.environ[key]
+        if not values.get(key):
+            raise SystemExit(f'Missing {key}: set the environment variable or provide {args.credentials.name}')
     headers = {'Content-Type':'application/json','Referer':'https://leetcode.com/','User-Agent':'Mozilla/5.0',
                'Cookie':'LEETCODE_SESSION='+values['LEETCODE_SESSION']+'; csrftoken='+values['LEETCODE_CSRF_TOKEN'],
                'x-csrftoken':values['LEETCODE_CSRF_TOKEN']}
@@ -179,6 +186,7 @@ def main():
     intro = readme.read_text().split('| id',1)[0].split('程式碼依 `',1)[0]
     intro += '程式碼依 `難度/題號.題名/語言/solution.副檔名` 分類；`solution` 為該語言最新的 Accepted 提交，每題各語言僅保留最新 Accepted，提交 ID、時間與程式碼雜湊見 [submissions.json](submissions.json)。\n\n'
     intro += '重新同步：`python3 scripts/import_leetcode.py`（從 `.env.leetcode` 讀取登入 Cookie）；下載中斷時可加 `--resume`，沿用上次的歷史清單與快取。本機舊解答備份於 `.leetcode-import/c8763yee/previous-local/`。\n\n'
+    intro += '每日自動同步與 Discord 失敗通知設定：[自動化說明](docs/automation.md)。\n\n'
     intro += '| id | Difficulty | Title | Languages |\n|---|---|---|---|\n'
     for qid,(q,directory) in sorted(problems.items(),key=lambda item:(not item[0].isdigit(),int(item[0]) if item[0].isdigit() else item[0])):
         links = []
