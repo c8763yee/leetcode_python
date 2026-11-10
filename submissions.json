@@ -1,11 +1,198 @@
 {
   "username": "c8763yee",
-  "totalSubmissions": 3017,
-  "acceptedSubmissions": 1673,
-  "problems": 516,
-  "problemLanguages": 647,
+  "totalSubmissions": 3046,
+  "acceptedSubmissions": 1696,
+  "problems": 518,
+  "problemLanguages": 659,
   "unavailable": [],
   "submissions": [
+    {
+      "id": "2188335037",
+      "questionId": "143",
+      "title": "Reorder List",
+      "titleSlug": "reorder-list",
+      "difficulty": "Medium",
+      "language": "c",
+      "timestamp": 1793686199,
+      "path": "medium/143.ReorderList/c/solution.c",
+      "sha256": "b537fa4e25a4267878d4ccbcdee1d59f4e098a1784f5fe7209bb093ed166410e"
+    },
+    {
+      "id": "2188330557",
+      "questionId": "1512",
+      "title": "Number of Good Pairs",
+      "titleSlug": "number-of-good-pairs",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793685873,
+      "path": "easy/1512.NumberofGoodPairs/c/solution.c",
+      "sha256": "925ec05d7ccb5bb94830f4aa3b2a045779cffefdd5c58546b386964b897270af"
+    },
+    {
+      "id": "2188312310",
+      "questionId": "713",
+      "title": "Subarray Product Less Than K",
+      "titleSlug": "subarray-product-less-than-k",
+      "difficulty": "Medium",
+      "language": "c",
+      "timestamp": 1793684381,
+      "path": "medium/713.SubarrayProductLessThanK/c/solution.c",
+      "sha256": "4b35699ee86293d92b6a567c70e01612465481eef161d92bc2aa6bd9a30735d9"
+    },
+    {
+      "id": "2188228157",
+      "questionId": "1669",
+      "title": "Merge In Between Linked Lists",
+      "titleSlug": "merge-in-between-linked-lists",
+      "difficulty": "Medium",
+      "language": "c",
+      "timestamp": 1793676763,
+      "path": "medium/1669.MergeInBetweenLinkedLists/c/solution.c",
+      "sha256": "407bd00c2c5738de4ad218d8ac6444c51f996d94519f3277b23ef65750e21985"
+    },
+    {
+      "id": "2188203983",
+      "questionId": "2119",
+      "title": "A Number After a Double Reversal",
+      "titleSlug": "a-number-after-a-double-reversal",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793673432,
+      "path": "easy/2119.ANumberAfteraDoubleReversal/c/solution.c",
+      "sha256": "25d181c95490b5c70ed9d99e29bf59f2ebf688d6be85a96d9499fd66438798e7"
+    },
+    {
+      "id": "2188202730",
+      "questionId": "2485",
+      "title": "Find the Pivot Integer",
+      "titleSlug": "find-the-pivot-integer",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793673234,
+      "path": "easy/2485.FindthePivotInteger/c/solution.c",
+      "sha256": "2d60e9ce8ca04bc22aa347c5b187d5d9c40f38f204f3ec8864a2ca829b91b05d"
+    },
+    {
+      "id": "2188195173",
+      "questionId": "3736",
+      "title": "Minimum Moves to Equal Array Elements III",
+      "titleSlug": "minimum-moves-to-equal-array-elements-iii",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793672066,
+      "path": "easy/3736.MinimumMovestoEqualArrayElementsIII/c/solution.c",
+      "sha256": "28e0fd1e353bcee1925c161abc2a91cd570480d357ac40e3d1e70074366ccf7d"
+    },
+    {
+      "id": "2188169986",
+      "questionId": "101",
+      "title": "Symmetric Tree",
+      "titleSlug": "symmetric-tree",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793667514,
+      "path": "easy/101.SymmetricTree/c/solution.c",
+      "sha256": "9fc67d2462cd3ab9756600b7b0508bbc029f45f55ff6c2ec3e135681092e9906"
+    },
+    {
+      "id": "2188165351",
+      "questionId": "226",
+      "title": "Invert Binary Tree",
+      "titleSlug": "invert-binary-tree",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793666509,
+      "path": "easy/226.InvertBinaryTree/c/solution.c",
+      "sha256": "c8b7110e9761eac0cffe9cdde69f954b9070bb2a50c88e0186fb571d38d725c7"
+    },
+    {
+      "id": "2187512884",
+      "questionId": "145",
+      "title": "Binary Tree Postorder Traversal",
+      "titleSlug": "binary-tree-postorder-traversal",
+      "difficulty": "Easy",
+      "language": "python3",
+      "timestamp": 1793599667,
+      "path": "easy/145.BinaryTreePostorderTraversal/python3/solution.py",
+      "sha256": "facc70e2db3d622fa1f6cf41abbfe7a20a361755a50bd4d328a4a0e0ab29874f"
+    },
+    {
+      "id": "2187507299",
+      "questionId": "144",
+      "title": "Binary Tree Preorder Traversal",
+      "titleSlug": "binary-tree-preorder-traversal",
+      "difficulty": "Easy",
+      "language": "python3",
+      "timestamp": 1793599213,
+      "path": "easy/144.BinaryTreePreorderTraversal/python3/solution.py",
+      "sha256": "83871d569a93552f5802400a25e9d5100f2df53e9de047ced24ff897d2987b90"
+    },
+    {
+      "id": "2187506410",
+      "questionId": "94",
+      "title": "Binary Tree Inorder Traversal",
+      "titleSlug": "binary-tree-inorder-traversal",
+      "difficulty": "Easy",
+      "language": "python3",
+      "timestamp": 1793599139,
+      "path": "easy/94.BinaryTreeInorderTraversal/python3/solution.py",
+      "sha256": "469e662bc7fde998d726dd2055ba52d3ea3594992f46984f6d569b2291c4857d"
+    },
+    {
+      "id": "2187496217",
+      "questionId": "206",
+      "title": "Reverse Linked List",
+      "titleSlug": "reverse-linked-list",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793598239,
+      "path": "easy/206.ReverseLinkedList/c/solution.c",
+      "sha256": "8d3e57443c7b79704bff735c2a7bbc601b79c80e0d1456cca4dd38b01c92ab3b"
+    },
+    {
+      "id": "2187419618",
+      "questionId": "3101",
+      "title": "Count Alternating Subarrays",
+      "titleSlug": "count-alternating-subarrays",
+      "difficulty": "Medium",
+      "language": "c",
+      "timestamp": 1793590554,
+      "path": "medium/3101.CountAlternatingSubarrays/c/solution.c",
+      "sha256": "8d91fb1898daf0c2c9a799d9cf13e183fc4d086877ded8b29052884e524759d1"
+    },
+    {
+      "id": "2187416783",
+      "questionId": "3099",
+      "title": "Harshad Number",
+      "titleSlug": "harshad-number",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1793590155,
+      "path": "easy/3099.HarshadNumber/c/solution.c",
+      "sha256": "15ddf3e3ce11eeef4ebe719868c01014240a57da5b7cc65ed7093be82f13b30f"
+    },
+    {
+      "id": "2187409466",
+      "questionId": "136",
+      "title": "Single Number",
+      "titleSlug": "single-number",
+      "difficulty": "Easy",
+      "language": "python3",
+      "timestamp": 1793589062,
+      "path": "easy/136.SingleNumber/python3/solution.py",
+      "sha256": "293d2e507a7eccf31543dd8713b0d1dee53bf32db041bf17cbd8b205ec83c58a"
+    },
+    {
+      "id": "2187407421",
+      "questionId": "462",
+      "title": "Minimum Moves to Equal Array Elements II",
+      "titleSlug": "minimum-moves-to-equal-array-elements-ii",
+      "difficulty": "Medium",
+      "language": "python3",
+      "timestamp": 1793588723,
+      "path": "medium/462.MinimumMovestoEqualArrayElementsII/python3/solution.py",
+      "sha256": "8d9e133ad8873b0331037fcc429768588c4dfb58159f07ab6f04300a1d941178"
+    },
     {
       "id": "2185907755",
       "questionId": "108",
@@ -269,17 +456,6 @@
       "timestamp": 1793086047,
       "path": "easy/933.NumberofRecentCalls/c/solution.c",
       "sha256": "914851473303bacadf878630d34057d22b47406251879e71bcc11f30dd295715"
-    },
-    {
-      "id": "2182877907",
-      "questionId": "206",
-      "title": "Reverse Linked List",
-      "titleSlug": "reverse-linked-list",
-      "difficulty": "Easy",
-      "language": "c",
-      "timestamp": 1793084763,
-      "path": "easy/206.ReverseLinkedList/c/solution.c",
-      "sha256": "02e23d619bf041b0c81df0b1db3647cd46dc32f2bb8f2cdcee87a8e88ef69ccf"
     },
     {
       "id": "2182738074",
@@ -2216,28 +2392,6 @@
       "timestamp": 1720320681,
       "path": "easy/3210.FindtheEncryptedString/python3/solution.py",
       "sha256": "c7cfb4e061248f6b4c2ba3ce5f2684c6f3023c1bd2151e32c4e1dd30d06ca23f"
-    },
-    {
-      "id": "1310319561",
-      "questionId": "94",
-      "title": "Binary Tree Inorder Traversal",
-      "titleSlug": "binary-tree-inorder-traversal",
-      "difficulty": "Easy",
-      "language": "python3",
-      "timestamp": 1720173266,
-      "path": "easy/94.BinaryTreeInorderTraversal/python3/solution.py",
-      "sha256": "34268fb60ac66bcb3d91350d9d940e98ceb9b33c7533cf132b8234627febe822"
-    },
-    {
-      "id": "1310318370",
-      "questionId": "144",
-      "title": "Binary Tree Preorder Traversal",
-      "titleSlug": "binary-tree-preorder-traversal",
-      "difficulty": "Easy",
-      "language": "python3",
-      "timestamp": 1720173179,
-      "path": "easy/144.BinaryTreePreorderTraversal/python3/solution.py",
-      "sha256": "4a25aa914184bcb752b64e59792c01f761ee4dc7400802152f45b54f7a05e980"
     },
     {
       "id": "1310176098",
@@ -4207,17 +4361,6 @@
       "timestamp": 1703466208,
       "path": "hard/564.FindTheClosestPalindrome/python3/solution.py",
       "sha256": "29b9da73fa160c0f869b7a741ee987ce5a414dd9fe9f1748f25fe3ac4d8b8fcd"
-    },
-    {
-      "id": "1127437160",
-      "questionId": "136",
-      "title": "Single Number",
-      "titleSlug": "single-number",
-      "difficulty": "Easy",
-      "language": "python3",
-      "timestamp": 1703424122,
-      "path": "easy/136.SingleNumber/python3/solution.py",
-      "sha256": "0732308f56de6dcbbd61b48e9dfda5ebc187a75cfc42d1c8294294aeb879efc6"
     },
     {
       "id": "1127435889",
@@ -6506,17 +6649,6 @@
       "timestamp": 1667562784,
       "path": "easy/2236.RootEqualsSumofChildren/python3/solution.py",
       "sha256": "33ee402fb4e1c7af9f704c294f2572b829eb1bbc72206ef7b5fd7d52df5234e5"
-    },
-    {
-      "id": "834460508",
-      "questionId": "145",
-      "title": "Binary Tree Postorder Traversal",
-      "titleSlug": "binary-tree-postorder-traversal",
-      "difficulty": "Easy",
-      "language": "python3",
-      "timestamp": 1667282083,
-      "path": "easy/145.BinaryTreePostorderTraversal/python3/solution.py",
-      "sha256": "dd1a5e4901f2acf2c027e0594e9ea33bd7b012c7eab9776344cacd315d9fc5c2"
     },
     {
       "id": "826621185",

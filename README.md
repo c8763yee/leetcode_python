@@ -83,7 +83,7 @@
 | 96 | Medium | [Unique Binary Search Trees](medium/96.UniqueBinarySearchTrees) | [c](medium/96.UniqueBinarySearchTrees/c/solution.c) |
 | 98 | Medium | [Validate Binary Search Tree](medium/98.ValidateBinarySearchTree) | [c](medium/98.ValidateBinarySearchTree/c/solution.c) |
 | 100 | Easy | [Same Tree](easy/100.SameTree) | [python3](easy/100.SameTree/python3/solution.py), [rust](easy/100.SameTree/rust/solution.rs) |
-| 101 | Easy | [Symmetric Tree](easy/101.SymmetricTree) | [python3](easy/101.SymmetricTree/python3/solution.py) |
+| 101 | Easy | [Symmetric Tree](easy/101.SymmetricTree) | [c](easy/101.SymmetricTree/c/solution.c), [python3](easy/101.SymmetricTree/python3/solution.py) |
 | 102 | Medium | [Binary Tree Level Order Traversal](medium/102.BinaryTreeLevelOrderTraversal) | [python3](medium/102.BinaryTreeLevelOrderTraversal/python3/solution.py) |
 | 104 | Easy | [Maximum Depth of Binary Tree](easy/104.MaximumDepthOfBinaryTree) | [c](easy/104.MaximumDepthOfBinaryTree/c/solution.c), [cpp](easy/104.MaximumDepthOfBinaryTree/cpp/solution.cpp), [python3](easy/104.MaximumDepthOfBinaryTree/python3/solution.py) |
 | 108 | Easy | [Convert Sorted Array to Binary Search Tree](easy/108.ConvertSortedArrayToBinarySearchTree) | [c](easy/108.ConvertSortedArrayToBinarySearchTree/c/solution.c), [python3](easy/108.ConvertSortedArrayToBinarySearchTree/python3/solution.py) |
@@ -101,7 +101,7 @@
 | 136 | Easy | [Single Number](easy/136.SingleNumber) | [python3](easy/136.SingleNumber/python3/solution.py), [rust](easy/136.SingleNumber/rust/solution.rs) |
 | 141 | Easy | [Linked List Cycle](easy/141.LinkedListCycle) | [cpp](easy/141.LinkedListCycle/cpp/solution.cpp), [python3](easy/141.LinkedListCycle/python3/solution.py) |
 | 142 | Medium | [Linked List Cycle II](medium/142.LinkedListCycleII) | [python3](medium/142.LinkedListCycleII/python3/solution.py) |
-| 143 | Medium | [Reorder List](medium/143.ReorderList) | [python3](medium/143.ReorderList/python3/solution.py) |
+| 143 | Medium | [Reorder List](medium/143.ReorderList) | [c](medium/143.ReorderList/c/solution.c), [python3](medium/143.ReorderList/python3/solution.py) |
 | 144 | Easy | [Binary Tree Preorder Traversal](easy/144.BinaryTreePreorderTraversal) | [python3](easy/144.BinaryTreePreorderTraversal/python3/solution.py) |
 | 145 | Easy | [Binary Tree Postorder Traversal](easy/145.BinaryTreePostorderTraversal) | [python3](easy/145.BinaryTreePostorderTraversal/python3/solution.py) |
 | 146 | Medium | [LRU Cache](medium/146.LRUCache) | [c](medium/146.LRUCache/c/solution.c), [python3](medium/146.LRUCache/python3/solution.py) |
@@ -147,7 +147,7 @@
 | 221 | Medium | [Maximal Square](medium/221.MaximalSquare) | [python3](medium/221.MaximalSquare/python3/solution.py) |
 | 222 | Medium | [Count Complete Tree Nodes](medium/222.CountCompleteTreeNodes) | [python3](medium/222.CountCompleteTreeNodes/python3/solution.py) |
 | 225 | Easy | [Implement Stack using Queues](easy/225.ImplementStackUsingQueues) | [python3](easy/225.ImplementStackUsingQueues/python3/solution.py) |
-| 226 | Easy | [Invert Binary Tree](easy/226.InvertBinaryTree) | [python3](easy/226.InvertBinaryTree/python3/solution.py) |
+| 226 | Easy | [Invert Binary Tree](easy/226.InvertBinaryTree) | [c](easy/226.InvertBinaryTree/c/solution.c), [python3](easy/226.InvertBinaryTree/python3/solution.py) |
 | 227 | Medium | [Basic Calculator II](medium/227.BasicCalculatorII) | [python3](medium/227.BasicCalculatorII/python3/solution.py) |
 | 229 | Medium | [Majority Element II](medium/229.MajorityElementII) | [python3](medium/229.MajorityElementII/python3/solution.py) |
 | 231 | Easy | [Power of Two](easy/231.PowerofTwo) | [python3](easy/231.PowerofTwo/python3/solution.py), [rust](easy/231.PowerofTwo/rust/solution.rs) |
@@ -202,6 +202,7 @@
 | 448 | Easy | [Find All Numbers Disappeared in an Array](easy/448.FindAllNumbersDisappearedinanArray) | [python3](easy/448.FindAllNumbersDisappearedinanArray/python3/solution.py) |
 | 451 | Medium | [Sort Characters By Frequency](medium/451.SortCharactersByFrequency) | [python3](medium/451.SortCharactersByFrequency/python3/solution.py) |
 | 455 | Easy | [Assign Cookies](easy/455.AssignCookies) | [python3](easy/455.AssignCookies/python3/solution.py) |
+| 462 | Medium | [Minimum Moves to Equal Array Elements II](medium/462.MinimumMovestoEqualArrayElementsII) | [python3](medium/462.MinimumMovestoEqualArrayElementsII/python3/solution.py) |
 | 476 | Easy | [Number Complement](easy/476.NumberComplement) | [golang](easy/476.NumberComplement/golang/solution.go) |
 | 485 | Easy | [Max Consecutive Ones](easy/485.MaxConsecutiveOnes) | [python3](easy/485.MaxConsecutiveOnes/python3/solution.py) |
 | 506 | Easy | [Relative Ranks](easy/506.RelativeRanks) | [cpp](easy/506.RelativeRanks/cpp/solution.cpp), [python3](easy/506.RelativeRanks/python3/solution.py) |
@@ -246,7 +247,7 @@
 | 705 | Easy | [Design HashSet](easy/705.DesignHashSet) | [python3](easy/705.DesignHashSet/python3/solution.py) |
 | 707 | Medium | [Design Linked List](medium/707.DesignLinkedList) | [c](medium/707.DesignLinkedList/c/solution.c), [python3](medium/707.DesignLinkedList/python3/solution.py) |
 | 709 | Easy | [To Lower Case](easy/709.ToLowerCase) | [python3](easy/709.ToLowerCase/python3/solution.py) |
-| 713 | Medium | [Subarray Product Less Than K](medium/713.SubarrayProductLessThanK) | [python3](medium/713.SubarrayProductLessThanK/python3/solution.py) |
+| 713 | Medium | [Subarray Product Less Than K](medium/713.SubarrayProductLessThanK) | [c](medium/713.SubarrayProductLessThanK/c/solution.c), [python3](medium/713.SubarrayProductLessThanK/python3/solution.py) |
 | 724 | Easy | [Find Pivot Index](easy/724.FindPivotIndex) | [cpp](easy/724.FindPivotIndex/cpp/solution.cpp), [python3](easy/724.FindPivotIndex/python3/solution.py) |
 | 728 | Easy | [Self Dividing Numbers](easy/728.SelfDividingNumbers) | [c](easy/728.SelfDividingNumbers/c/solution.c), [python3](easy/728.SelfDividingNumbers/python3/solution.py) |
 | 733 | Easy | [Flood Fill](easy/733.FloodFill) | [python3](easy/733.FloodFill/python3/solution.py) |
@@ -337,7 +338,7 @@
 | 1496 | Easy | [Path Crossing](easy/1496.PathCrossing) | [python3](easy/1496.PathCrossing/python3/solution.py) |
 | 1498 | Medium | [Number of Subsequences That Satisfy the Given Sum Condition](medium/1498.NumberofSubsequencesThatSatisfytheGivenSumCondition) | [python3](medium/1498.NumberofSubsequencesThatSatisfytheGivenSumCondition/python3/solution.py) |
 | 1509 | Medium | [Minimum Difference Between Largest and Smallest Value in Three Moves](medium/1509.MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves) | [python3](medium/1509.MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves/python3/solution.py) |
-| 1512 | Easy | [Number of Good Pairs](easy/1512.NumberofGoodPairs) | [python3](easy/1512.NumberofGoodPairs/python3/solution.py), [rust](easy/1512.NumberofGoodPairs/rust/solution.rs) |
+| 1512 | Easy | [Number of Good Pairs](easy/1512.NumberofGoodPairs) | [c](easy/1512.NumberofGoodPairs/c/solution.c), [python3](easy/1512.NumberofGoodPairs/python3/solution.py), [rust](easy/1512.NumberofGoodPairs/rust/solution.rs) |
 | 1518 | Easy | [Water Bottles](easy/1518.WaterBottles) | [c](easy/1518.WaterBottles/c/solution.c), [python3](easy/1518.WaterBottles/python3/solution.py) |
 | 1523 | Easy | [Count Odd Numbers in an Interval Range](easy/1523.CountOddNumbersinanIntervalRange) | [c](easy/1523.CountOddNumbersinanIntervalRange/c/solution.c), [python3](easy/1523.CountOddNumbersinanIntervalRange/python3/solution.py) |
 | 1528 | Easy | [Shuffle String](easy/1528.ShuffleString) | [python3](easy/1528.ShuffleString/python3/solution.py) |
@@ -359,7 +360,7 @@
 | 1653 | Medium | [Minimum Deletions to Make String Balanced](medium/1653.MinimumDeletionstoMakeStringBalanced) | [cpp](medium/1653.MinimumDeletionstoMakeStringBalanced/cpp/solution.cpp), [python3](medium/1653.MinimumDeletionstoMakeStringBalanced/python3/solution.py) |
 | 1657 | Medium | [Determine if Two Strings Are Close](medium/1657.DetermineifTwoStringsAreClose) | [python3](medium/1657.DetermineifTwoStringsAreClose/python3/solution.py) |
 | 1662 | Easy | [Check If Two String Arrays are Equivalent](easy/1662.CheckIfTwoStringArraysareEquivalent) | [python3](easy/1662.CheckIfTwoStringArraysareEquivalent/python3/solution.py) |
-| 1669 | Medium | [Merge In Between Linked Lists](medium/1669.MergeInBetweenLinkedLists) | [python3](medium/1669.MergeInBetweenLinkedLists/python3/solution.py) |
+| 1669 | Medium | [Merge In Between Linked Lists](medium/1669.MergeInBetweenLinkedLists) | [c](medium/1669.MergeInBetweenLinkedLists/c/solution.c), [python3](medium/1669.MergeInBetweenLinkedLists/python3/solution.py) |
 | 1679 | Medium | [Max Number of K-Sum Pairs](medium/1679.MaxNumberofKSumPairs) | [python3](medium/1679.MaxNumberofKSumPairs/python3/solution.py) |
 | 1688 | Easy | [Count of Matches in Tournament](easy/1688.CountofMatchesinTournament) | [python3](easy/1688.CountofMatchesinTournament/python3/solution.py) |
 | 1700 | Easy | [Number of Students Unable to Eat Lunch](easy/1700.NumberofStudentsUnabletoEatLunch) | [python3](easy/1700.NumberofStudentsUnabletoEatLunch/python3/solution.py) |
@@ -405,7 +406,7 @@
 | 2096 | Medium | [Step-By-Step Directions From a Binary Tree Node to Another](medium/2096.StepByStepDirectionsFromaBinaryTreeNodetoAnother) | [cpp](medium/2096.StepByStepDirectionsFromaBinaryTreeNodetoAnother/cpp/solution.cpp), [python3](medium/2096.StepByStepDirectionsFromaBinaryTreeNodetoAnother/python3/solution.py) |
 | 2108 | Easy | [Find First Palindromic String in the Array](easy/2108.FindFirstPalindromicStringintheArray) | [rust](easy/2108.FindFirstPalindromicStringintheArray/rust/solution.rs) |
 | 2109 | Medium | [Adding Spaces to a String](medium/2109.AddingSpacestoaString) | [python3](medium/2109.AddingSpacestoaString/python3/solution.py) |
-| 2119 | Easy | [A Number After a Double Reversal](easy/2119.ANumberAfteraDoubleReversal) | [rust](easy/2119.ANumberAfteraDoubleReversal/rust/solution.rs) |
+| 2119 | Easy | [A Number After a Double Reversal](easy/2119.ANumberAfteraDoubleReversal) | [c](easy/2119.ANumberAfteraDoubleReversal/c/solution.c), [rust](easy/2119.ANumberAfteraDoubleReversal/rust/solution.rs) |
 | 2125 | Medium | [Number of Laser Beams in a Bank](medium/2125.NumberofLaserBeamsinaBank) | [c](medium/2125.NumberofLaserBeamsinaBank/c/solution.c), [python3](medium/2125.NumberofLaserBeamsinaBank/python3/solution.py) |
 | 2129 | Easy | [Capitalize the Title](easy/2129.CapitalizetheTitle) | [c](easy/2129.CapitalizetheTitle/c/solution.c), [python3](easy/2129.CapitalizetheTitle/python3/solution.py) |
 | 2133 | Easy | [Check if Every Row and Column Contains All Numbers](easy/2133.CheckifEveryRowandColumnContainsAllNumbers) | [python3](easy/2133.CheckifEveryRowandColumnContainsAllNumbers/python3/solution.py) |
@@ -443,7 +444,7 @@
 | 2441 | Easy | [Largest Positive Integer That Exists With Its Negative](easy/2441.LargestPositiveIntegerThatExistsWithItsNegative) | [python3](easy/2441.LargestPositiveIntegerThatExistsWithItsNegative/python3/solution.py) |
 | 2455 | Easy | [Average Value of Even Numbers That Are Divisible by Three](easy/2455.AverageValueofEvenNumbersThatAreDivisiblebyThree) | [c](easy/2455.AverageValueofEvenNumbersThatAreDivisiblebyThree/c/solution.c) |
 | 2482 | Medium | [Difference Between Ones and Zeros in Row and Column](medium/2482.DifferenceBetweenOnesandZerosinRowandColumn) | [python3](medium/2482.DifferenceBetweenOnesandZerosinRowandColumn/python3/solution.py) |
-| 2485 | Easy | [Find the Pivot Integer](easy/2485.FindthePivotInteger) | [python3](easy/2485.FindthePivotInteger/python3/solution.py), [rust](easy/2485.FindthePivotInteger/rust/solution.rs) |
+| 2485 | Easy | [Find the Pivot Integer](easy/2485.FindthePivotInteger) | [c](easy/2485.FindthePivotInteger/c/solution.c), [python3](easy/2485.FindthePivotInteger/python3/solution.py), [rust](easy/2485.FindthePivotInteger/rust/solution.rs) |
 | 2487 | Medium | [Remove Nodes From Linked List](medium/2487.RemoveNodesFromLinkedList) | [python3](medium/2487.RemoveNodesFromLinkedList/python3/solution.py) |
 | 2501 | Medium | [Longest Square Streak in an Array](medium/2501.LongestSquareStreakinanArray) | [python3](medium/2501.LongestSquareStreakinanArray/python3/solution.py) |
 | 2515 | Easy | [Shortest Distance to Target String in a Circular Array](easy/2515.ShortestDistancetoTargetStringinaCircularArray) | [python3](easy/2515.ShortestDistancetoTargetStringinaCircularArray/python3/solution.py) |
@@ -490,9 +491,9 @@
 | 3091 | Medium | [Apply Operations to Make Sum of Array Greater Than or Equal to k](medium/3091.ApplyOperationstoMakeSumofArrayGreaterThanorEqualtok) | [python3](medium/3091.ApplyOperationstoMakeSumofArrayGreaterThanorEqualtok/python3/solution.py) |
 | 3095 | Easy | [Shortest Subarray With OR at Least K I](easy/3095.ShortestSubarrayWithORatLeastKI) | [cpp](easy/3095.ShortestSubarrayWithORatLeastKI/cpp/solution.cpp), [python3](easy/3095.ShortestSubarrayWithORatLeastKI/python3/solution.py) |
 | 3097 | Medium | [Shortest Subarray With OR at Least K II](medium/3097.ShortestSubarrayWithORatLeastKII) | [python3](medium/3097.ShortestSubarrayWithORatLeastKII/python3/solution.py) |
-| 3099 | Easy | [Harshad Number](easy/3099.HarshadNumber) | [python3](easy/3099.HarshadNumber/python3/solution.py) |
+| 3099 | Easy | [Harshad Number](easy/3099.HarshadNumber) | [c](easy/3099.HarshadNumber/c/solution.c), [python3](easy/3099.HarshadNumber/python3/solution.py) |
 | 3100 | Medium | [Water Bottles II](medium/3100.WaterBottlesII) | [c](medium/3100.WaterBottlesII/c/solution.c), [python3](medium/3100.WaterBottlesII/python3/solution.py) |
-| 3101 | Medium | [Count Alternating Subarrays](medium/3101.CountAlternatingSubarrays) | [python3](medium/3101.CountAlternatingSubarrays/python3/solution.py) |
+| 3101 | Medium | [Count Alternating Subarrays](medium/3101.CountAlternatingSubarrays) | [c](medium/3101.CountAlternatingSubarrays/c/solution.c), [python3](medium/3101.CountAlternatingSubarrays/python3/solution.py) |
 | 3163 | Medium | [String Compression III](medium/3163.StringCompressionIII) | [python3](medium/3163.StringCompressionIII/python3/solution.py) |
 | 3174 | Easy | [Clear Digits](easy/3174.ClearDigits) | [c](easy/3174.ClearDigits/c/solution.c) |
 | 3194 | Easy | [Minimum Average of Smallest and Largest Elements](easy/3194.MinimumAverageofSmallestandLargestElements) | [python3](easy/3194.MinimumAverageofSmallestandLargestElements/python3/solution.py) |
@@ -518,6 +519,7 @@
 | 3693 | Medium | [Climbing Stairs II](medium/3693.ClimbingStairsII) | [python3](medium/3693.ClimbingStairsII/python3/solution.py) |
 | 3723 | Medium | [Maximize Sum of Squares of Digits](medium/3723.MaximizeSumofSquaresofDigits) | [c](medium/3723.MaximizeSumofSquaresofDigits/c/solution.c) |
 | 3727 | Medium | [Maximum Alternating Sum of Squares](medium/3727.MaximumAlternatingSumofSquares) | [c](medium/3727.MaximumAlternatingSumofSquares/c/solution.c), [python3](medium/3727.MaximumAlternatingSumofSquares/python3/solution.py) |
+| 3736 | Easy | [Minimum Moves to Equal Array Elements III](easy/3736.MinimumMovestoEqualArrayElementsIII) | [c](easy/3736.MinimumMovestoEqualArrayElementsIII/c/solution.c) |
 | 3870 | Easy | [Count Commas in Range](easy/3870.CountCommasinRange) | [c](easy/3870.CountCommasinRange/c/solution.c) |
 | 3871 | Medium | [Count Commas in Range II](medium/3871.CountCommasinRangeII) | [c](medium/3871.CountCommasinRangeII/c/solution.c), [rust](medium/3871.CountCommasinRangeII/rust/solution.rs) |
 | 3882 | Medium | [Minimum XOR Path in a Grid](medium/3882.MinimumXORPathinaGrid) | [c](medium/3882.MinimumXORPathinaGrid/c/solution.c) |

@@ -4,22 +4,21 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
-    # def __init__(self):
-        # self.vals = []
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        stack = [root]
-        result = []
-        while stack:
-            node = stack.pop()
-            if node is None:
-                continue
-
-            result.append(node.val)
-            if node.right:
-                stack.append(node.right)
+    def preorderTraversal(self, root: TreeNode | None) -> list[int]:
+        if root is None: return []
+        stack = []
+        ret = []
+        curr = root
+        while curr or stack:
+            while curr:
+                ret.append(curr.val)
+                stack.append(curr)
+                curr = curr.left
             
-            if node.left:
-                stack.append(node.left)
+            curr = stack.pop()
+            curr = curr.right
 
-        return result
+        return ret
+        

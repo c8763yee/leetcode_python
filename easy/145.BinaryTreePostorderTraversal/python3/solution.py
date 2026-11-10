@@ -5,14 +5,22 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def __init__(self):
-        self.dp = []
-    def pt(self, root: Optional[TreeNode]) -> List[int]:
-        if root is None:
-            return
-        self.postorderTraversal(root.left)
-        self.postorderTraversal(root.right)
-        self.dp.append(root.val)
-    def postorderTraversal(self, root: Optional[TreeNode]):
-        self.pt(root)
-        return self.dp
+    def postorderTraversal(self, root: TreeNode | None) -> list[int]:
+        if root is None: return []
+        stack = []
+        ret = []
+        last_visited = curr = root
+        while curr or stack:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+
+            node = stack[-1]
+            if node.right and last_visited != node.right:
+                curr = node.right
+            else:
+                ret.append(node.val)
+                last_visited = stack.pop()
+
+        return ret
+        
