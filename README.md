@@ -281,6 +281,7 @@
 | 1009 | Easy | [Complement of Base 10 Integer](easy/1009.ComplementofBase10Integer) | [golang](easy/1009.ComplementofBase10Integer/golang/solution.go) |
 | 1017 | Medium | [Convert to Base -2](medium/1017.ConverttoBase2) | [python3](medium/1017.ConverttoBase2/python3/solution.py) |
 | 1018 | Easy | [Binary Prefix Divisible By 5](easy/1018.BinaryPrefixDivisibleBy5) | [python3](easy/1018.BinaryPrefixDivisibleBy5/python3/solution.py) |
+| 1028 | Hard | [Recover a Tree From Preorder Traversal](hard/1028.RecoveraTreeFromPreorderTraversal) | [c](hard/1028.RecoveraTreeFromPreorderTraversal/c/solution.c) |
 | 1046 | Easy | [Last Stone Weight](easy/1046.LastStoneWeight) | [python3](easy/1046.LastStoneWeight/python3/solution.py) |
 | 1047 | Easy | [Remove All Adjacent Duplicates In String](easy/1047.RemoveAllAdjacentDuplicatesInString) | [python3](easy/1047.RemoveAllAdjacentDuplicatesInString/python3/solution.py) |
 | 1051 | Easy | [Height Checker](easy/1051.HeightChecker) | [python3](easy/1051.HeightChecker/python3/solution.py) |
@@ -423,6 +424,7 @@
 | 2225 | Medium | [Find Players With Zero or One Losses](medium/2225.FindPlayersWithZeroorOneLosses) | [python3](medium/2225.FindPlayersWithZeroorOneLosses/python3/solution.py) |
 | 2235 | Easy | [Add Two Integers](easy/2235.AddTwoIntegers) | [c](easy/2235.AddTwoIntegers/c/solution.c), [python3](easy/2235.AddTwoIntegers/python3/solution.py) |
 | 2236 | Easy | [Root Equals Sum of Children](easy/2236.RootEqualsSumofChildren) | [python3](easy/2236.RootEqualsSumofChildren/python3/solution.py) |
+| 2243 | Easy | [Calculate Digit Sum of a String](easy/2243.CalculateDigitSumofaString) | [c](easy/2243.CalculateDigitSumofaString/c/solution.c) |
 | 2244 | Medium | [Minimum Rounds to Complete All Tasks](medium/2244.MinimumRoundstoCompleteAllTasks) | [python3](medium/2244.MinimumRoundstoCompleteAllTasks/python3/solution.py) |
 | 2259 | Easy | [Remove Digit From Number to Maximize Result](easy/2259.RemoveDigitFromNumbertoMaximizeResult) | [python3](easy/2259.RemoveDigitFromNumbertoMaximizeResult/python3/solution.py) |
 | 2260 | Medium | [Minimum Consecutive Cards to Pick Up](medium/2260.MinimumConsecutiveCardstoPickUp) | [python3](medium/2260.MinimumConsecutiveCardstoPickUp/python3/solution.py) |

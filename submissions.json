@@ -1,11 +1,33 @@
 {
   "username": "c8763yee",
-  "totalSubmissions": 3046,
-  "acceptedSubmissions": 1696,
-  "problems": 518,
-  "problemLanguages": 659,
+  "totalSubmissions": 3050,
+  "acceptedSubmissions": 1699,
+  "problems": 520,
+  "problemLanguages": 661,
   "unavailable": [],
   "submissions": [
+    {
+      "id": "2197285649",
+      "questionId": "2243",
+      "title": "Calculate Digit Sum of a String",
+      "titleSlug": "calculate-digit-sum-of-a-string",
+      "difficulty": "Easy",
+      "language": "c",
+      "timestamp": 1794831741,
+      "path": "easy/2243.CalculateDigitSumofaString/c/solution.c",
+      "sha256": "f9aeb86ebbdacfa62ca0919a1318c7eb6af1adc795791925b2166d4b97a5f6fb"
+    },
+    {
+      "id": "2197203816",
+      "questionId": "1028",
+      "title": "Recover a Tree From Preorder Traversal",
+      "titleSlug": "recover-a-tree-from-preorder-traversal",
+      "difficulty": "Hard",
+      "language": "c",
+      "timestamp": 1794822223,
+      "path": "hard/1028.RecoveraTreeFromPreorderTraversal/c/solution.c",
+      "sha256": "55b4b50041600e0d0e6decba27118adbbc9d2d152e9343aa3948c1ab9e2174df"
+    },
     {
       "id": "2188335037",
       "questionId": "143",
